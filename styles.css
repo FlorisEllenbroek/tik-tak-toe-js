@@ -1,0 +1,64 @@
+.players {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.player1, .player2 {
+    background-color: #383231;
+    border-radius: 7px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.player1 {
+    margin-right: 50px;
+    height: 100px;
+}
+
+.h2 {
+    margin-top: 1px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 60px;
+    background-color: black;
+}
+
+.board__cell {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-r {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.restart {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
